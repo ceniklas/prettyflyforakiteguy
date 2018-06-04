@@ -1,0 +1,77 @@
+@font-face {
+  font-family: 'HiQ-Rough';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/HiQ-Rough-BLACK.otf') format('opentype'), 
+}
+
+@font-face {
+  font-family: 'ReenieBeanie';
+  font-style: normal;
+  src: url('./fonts/ReenieBeanie.ttf') format('truetype'),
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  padding: 20pt;
+  font-family: 'HiQ-Rough';
+  font-size: 24pt; 
+}
+
+.App-header-kiteflyer {
+  background-color: lightseagreen;
+  padding: 20pt;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.Content-wrapper {
+  padding-bottom: 60px;
+}
+
+.App-content {
+  display: inline-block;
+  text-align: left;
+  font-size: 16pt;
+  font-family: 'ReenieBeanie';
+}
+
+.App-content-bold {
+  font-size: large;
+  font-weight: bold;
+}
+
+.App-footer {
+  font-size: 17px;
+  line-height: 0;
+  font-family: 'Roboto';
+  color: white;
+  padding: 16pt;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.Footer-background-green {
+  background-image: url('./rectangle-3@3x-green.png');
+}
+
+.Footer-background-red {
+  background-image: url('./rectangle-3@3x-red.png');
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 160px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
